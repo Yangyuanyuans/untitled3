@@ -1,0 +1,41 @@
+.top {
+    height: 70px;
+    width: 300px;
+     
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+}
+.bar-body {
+    width: 700px;
+    height: 40px;
+     
+    display: flex;
+     
+}
+.bar-body-tip {
+    width: 100px;
+    height: 40px;
+     
+    
+}
+.color{
+    background-color: rgb(240, 235, 235);
+    height: 20px;
+}
+.bar-body-tip:hover{
+    border-bottom: 1px solid red;
+    background-color: rgb(254, 248, 248);
+}
+.style {
+    font-size: 14px;
+    color: rgb(45, 43, 43);
+}
+a{
+    text-decoration: none;
+    color: rgb(19, 168, 209);
+}
+.gap {
+    padding: 10px;
+}
