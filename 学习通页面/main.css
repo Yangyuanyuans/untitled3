@@ -17,6 +17,8 @@
 .bar-body-tip {
     width: 100px;
     height: 40px;
+    text-align: center;
+    line-height: 40px;
      
     
 }
@@ -25,8 +27,8 @@
     height: 20px;
 }
 .bar-body-tip:hover{
-    border-bottom: 1px solid red;
-    background-color: rgb(254, 248, 248);
+    border-bottom: 2px solid red;
+    
 }
 .style {
     font-size: 14px;

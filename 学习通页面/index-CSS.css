@@ -59,9 +59,10 @@ a {
     width: 190px;
     height: 168px;
     border-bottom: 1px solid #FFFFFF;
+    font-size: 14px;
      
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
     color: #FFFFFF;
     
     
@@ -74,6 +75,7 @@ a {
      
     align-items: center;
     color: #FFFFFF;
+    font-size: 14px;
      
 
 }
@@ -83,6 +85,7 @@ a {
      
     border-radius: 8px;
     text-align: end;
+    
      
 }
 .sidwbar-widget:hover{
