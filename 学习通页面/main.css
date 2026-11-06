@@ -37,7 +37,164 @@
 a{
     text-decoration: none;
     color: rgb(19, 168, 209);
+    
 }
 .gap {
     padding: 10px;
+}
+.fu {
+    position: relative;
+}
+.zi{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+#hidebox1{
+    display: none;
+}
+#hidebox2{
+    display: block;
+}
+#hidebox3{
+    display: none;
+    margin-left: 20px;
+}
+#hidebox4{
+    display: none;
+}
+#hidebox5{
+    display: none;
+}
+#hidebox5{
+    display: none;
+}
+textarea{
+    width: 600px;
+    height: 250px;
+    border-radius: 8px;
+}
+.big{
+    
+    height: 50px;
+    width: 600px;
+    
+}
+.small1{
+    height: 50px;
+    width: 50px;
+     
+    float: left;
+    padding-left: 30px;
+    line-height: 50px;
+}
+.small2{
+    width: 100px;
+    height: 50px;
+     
+    float: right;
+    border-radius: 8px;
+    background-color:rgb(67, 67, 179) ;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+
+
+}
+.old {
+    width: 100%;
+    height: 50px; 
+   
+    display: flex;
+}
+.old-f{
+    width: 300px;
+    height: 50px;
+     
+}
+.old-s{
+    width: 100px;
+    height: 50px;
+     
+    color: aqua;
+}
+.new1 {
+    width: 100%;
+    height: 50px;
+     
+}
+.new2 {
+    width: 100%;
+    height: 50px;
+     
+}
+.captcha{
+    width: 100%;
+    height: 50px;
+}
+.forget {
+    margin: 200px;
+    
+    width: 500px;
+    height: 400px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    display: none;
+}
+.box7{
+    width: 500px;
+    height: 30px;
+     
+     
+    
+    
+}
+.box7-f{
+    width: 100px;
+    height: 30px;
+     
+    float: left;
+    border-radius: 8px;
+    align-items:center
+
+}
+.box7-s{
+    width: 50px;
+    height: 30px;
+     
+    float: right;
+
+}
+.box8{
+    width: 500px;
+    height: 300px;
+    margin-left: 20px;
+     
+}
+.que{
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgb(101, 162, 233);
+    text-align: center;
+}
+.que1{
+    width: 250px;
+    height: 30px;
+     
+
+}
+button{
+    background-color: rgb(38, 107, 205);
+    color: white;
+    border-radius: 8px;
+    width: 50px;
+}
+.type1{
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid grey;
 }

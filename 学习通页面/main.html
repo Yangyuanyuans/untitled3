@@ -7,36 +7,108 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
+
     <div class="top"><img src="./z.png" alt="" width="50px">&nbsp;<h3> 账号管理</h3></div>
     <div class="bar-body">
-        <div class="bar-body-tip">基本资料</div>
-        <div class="bar-body-tip">修改头像</div>
-        <div class="bar-body-tip">密码管理</div>
-        <div class="bar-body-tip">注销账号</div>
-        <div class="bar-body-tip">语言</div>
+        <div class="bar-body-tip" id="type1">基本资料</div>
+        <div class="bar-body-tip" id="type2">修改头像</div>
+        <div class="bar-body-tip" id="type3">密码管理</div>
+        <div class="bar-body-tip" id="type4">注销账号</div>
+        <div class="bar-body-tip" id="type5">语言</div>
     </div>
     <div class="color"></div>
-    <div class="gap">
-        <br><br>
-        姓名： 杨媛媛
-        <br><br>
-        id: 12345678
-        <br><br>
-        <label>性别：&nbsp;<input type="radio" name="gender">男</label>
-        <label><input type="radio" name="gender">女</label>
-        <br><br>
-        手机号:150****0947 &nbsp;&nbsp;&nbsp;<a href="#">修改</a>
-        <br><br>
-        单位：&nbsp;&nbsp;<a href="#">+添加单位</a>
-        <hr>
-        重庆理工大学
-        <br>
-        <div class="style">学号/学工号:12502090221</div>
-        <br>
-        重庆理工大学图书馆
-        <br>
-        <div class="style">学号/学工号:12502090221</div>
-        <hr>
+    <div class="fu"> 
+        <div class="zi" id="hidebox1">
+            <div class="gap">
+                <br><br>
+                姓名： 杨媛媛
+                <br><br>
+                id: 12345678
+                <br><br>
+                <label>性别：&nbsp;<input type="radio" name="gender">男</label>
+                <label><input type="radio" name="gender">女</label>
+                <br><br>
+                手机号:150****0947 &nbsp;&nbsp;&nbsp;<a href="#">修改</a>
+                <br><br>
+                单位：&nbsp;&nbsp;<a href="#">+添加单位</a>
+                <hr>
+                重庆理工大学
+                <br>
+                <div class="style">学号/学工号:12502090221</div>
+                <br>
+                重庆理工大学图书馆
+                <br>
+                <div class="style">学号/学工号:12502090221</div>
+                <hr>
+            </div>
+        </div>
+        <div class="zi" id="hidebox2">
+            <img id="previewImg" style="width: 100px;height: 100px;">
+            <input type="file" id="Infile">
+        </div>
+        <div class="zi" id="hidebox3">
+            <br><br>
+            <div class="old">
+                <div class="old-f"><label>旧密码:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" class="type1"></label></div>
+                <div class="old-s">忘记密码</div>
+            </div>
+            <div class="new1"><label>新密码:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" class="type1" id="frist"></label></div>
+            <div class="new2"><label>确认新密码:<input type="password" class="type1" id="second"></label></div>
+            <div class="captcha">验证码:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="type1"></div>
+            <div style="display: flex;">
+                <div class="que1"></div>
+                <button id="que3">确定</button>
+            </div>
+        </div>
+        <div class="zi" id="hidebox4">
+            <br><br>
+            <textarea placeholder="请输入要注销的原因"></textarea>
+            <br><br>
+            <div class="big">
+                <div class="small1">
+                    <a href="#">客服</a>
+
+                </div>
+                <div class="small2">
+                    注销/解绑
+                </div>
+            </div>
+        </div>
+        <div class="zi" id="hidebox5">
+            <br><br>
+            <label ><input type="radio" name="1" checked>中文</label>&nbsp;&nbsp;&nbsp;
+            <label ><input type="radio" name="1">中文繁體</label>&nbsp;&nbsp;&nbsp;
+            <label ><input type="radio" name="1">English</label>&nbsp;&nbsp;&nbsp;
+            <label ><input type="radio" name="1">ລາວ</label>&nbsp;&nbsp;&nbsp;
+            <label ><input type="radio" name="1">Français</label>&nbsp;&nbsp;&nbsp;
+            <label ><input type="radio" name="1">Deutsch</label>&nbsp;&nbsp;&nbsp;
+            <label ><input type="radio" name="1">Español</label>&nbsp;&nbsp;&nbsp;
+            <label ><input type="radio" name="1">Русский</label>
+        </div>
+         
+        
     </div>
+    <div class = 'forget'>
+        <div class="box7">
+            <div class="box7-f"><img src="./left1.png" width="25px" > 返回</div> 
+            <div class="box7-s">客服</div>
+        </div>
+        <div class="box8">
+            <h1>忘记密码</h1>
+            
+            <input class="type1" type="text" value="手机号">
+            <br><br>
+            <input class="type1" type="text" value="验证码">
+            <br><br>
+            <input class="type1" type="password" placeholder="设置新密码">
+            <br><br>
+            <div class="que">确定</div>
+            <br><br>
+            
+
+        </div>
+    </div>
+    
+    <script src="./main.js"></script>
 </body>
 </html>

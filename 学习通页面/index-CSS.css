@@ -95,4 +95,10 @@ a {
 .h {
     display: flex;
 }
+.d{
+    display: block;
+}
+.myiframe{
+    display: none;
+}
 
