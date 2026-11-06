@@ -53,10 +53,10 @@ a{
     bottom: 0;
 }
 #hidebox1{
-    display: none;
+    display: block;
 }
 #hidebox2{
-    display: block;
+    display: none;
 }
 #hidebox3{
     display: none;
